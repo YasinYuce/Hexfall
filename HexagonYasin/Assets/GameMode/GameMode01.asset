@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6623456b835b3b947b5e172934059a94, type: 3}
+  m_Name: GameMode01
+  m_EditorClassIdentifier: 
+  GridXLength: 8
+  GridYLength: 9
+  Colors:
+  - {r: 1, g: 0.707804, b: 0.3915094, a: 1}
+  - {r: 1, g: 0.43173558, b: 0.39215684, a: 1}
+  - {r: 0.40602636, g: 0.39215684, b: 1, a: 1}
+  - {r: 0.68737245, g: 1, b: 0.39215684, a: 1}
+  - {r: 0.39215684, g: 1, b: 0.84095114, a: 1}
+  ScoreMultiplier: 5
+  BombScoreLimit: 1000
+  GridElements:
+  - GridPieces:
+    - {fileID: 114577837842808520, guid: 312141a75c08f7844ba9ba5d1164149e, type: 3}
+    - {fileID: 114727763561344154, guid: 8472b6b891ac82e43a5851e132a0dc0f, type: 3}
+    SelectorPrefab: {fileID: 1439953704490806, guid: c367bf08fb7a7884fb4ffa087f01f3cc,
+      type: 3}
+  ExplosionTypes: 00000000
